@@ -10,7 +10,7 @@ public:
         std::string explanation;
         for (auto c : s) {
             if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
-                explanation.push_back(std::tolower(c));
+                explanation.push_back(static_cast<char>(std::tolower(c)));
             }
         }
         size_t i = 0;
