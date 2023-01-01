@@ -3,3 +3,4 @@ project(string_easy)
 
 add_subdirectory(roman_to_integer)
 add_subdirectory(longest_common_prefix)
+add_subdirectory(valid_parentheses)
